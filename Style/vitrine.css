@@ -1,0 +1,144 @@
+vitrine-accueil
+[13:50] Nathan Portier (Invité)
+    
+
+@font-face {
+font-family: "OpenSans";
+src: url("OpenSans-Regular.ttf");
+font-size: 14px;
+font-stretch: normal;
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "nasa";
+src: url("nasalization-rg.ttf");
+font-weight: normal;
+font-style: normal;
+}
+ 
+header {
+background-image: url("texture-header.jpg"); 
+height: 150px;
+}
+h1 {
+font-family: "nasa";
+font-size: 40px;
+color: #27d1ff;
+vertical-align: middle;
+text-align: center;
+margin: auto;
+margin-top: 40px;
+}
+h2 {
+background-color: lightgray;
+text-align: middle;
+vertical-align: middle;
+width: 900px;
+}
+p.italic {
+font-style: italic;
+}
+p {
+width: 750px;
+text-align: center;
+padding: 10px;
+}
+b {
+font-style: bolder;
+}
+nav {
+font-family: "OpenSans";
+display: inline-block;
+background-color: #2e2f30;
+width: 96.5%;
+padding-right: 50px;
+text-align: right;
+vertical-align: center;
+}
+headernav > a {
+color: white;
+text-decoration: none;
+margin-right: 20px;
+}
+a:hover{
+color: #17c1ff;
+}
+main { 
+font-family: "OpenSans";
+font-size: 14px;
+background-color: #f2f2f2;
+text-align: center;
+max-width: 810px;
+margin-left: auto;
+margin-right: auto;
+}
+main.accueil > h2 {
+text-shadow: 1px1px2pxblack;
+}
+main.programme >h2 {
+text-shadow: 1px1px2pxblack;
+}
+main.accueil {
+text-align: center;
+}
+main* {
+margin-left: auto;
+margin-right: auto;
+}
+footer > a, footer > img {
+display: block;
+position: absolute;
+bottom: 15%;
+left: 42%;
+margin-top: -50px;
+margin-left: -40px;
+}
+body {
+background-color: #f2f2f2;
+font-family: "OpenSans";
+font-size: 14px;
+ }
+table {
+width: 810px;
+overflow: scroll;
+display: block;
+height: 480px;
+}
+td,th {
+text-align: left;
+}
+td.center {
+text-align: center;
+}
+tr.Un {
+background-color: #27d1ff;
+color: white;
+}
+input, textarea {
+width: 250px;
+height: 30px;
+border-width: 2px;
+border-style: solid;
+border-color: #e6e6e6;
+}
+form {
+padding: 8%;
+width: 300px;
+font-family: "OpenSans";
+}
+forminput:hover, formtextarea:hover {
+border-color: #27d1ff;
+}
+div.button > button:hover {
+background-color:#17c1ff;
+}
+formdiv.buttonbutton:active {
+box-shadow: -1px2px10px3pxrgba(0, 0, 0, 0.5) inset; 
+}
+main.cadre {
+border-width: 2px;
+border-style: solid;
+border-color: #e6e6e6;
+}
+
